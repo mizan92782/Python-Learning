@@ -1,0 +1,12 @@
+
+>> lambda is annonymouyse function
+>> ist dont have name or returun 
+>> its take paramer for a single object or 
+>> can for apply a function and apply express on all
+
+
+>> when apply of a single element its structure:
+    ** lambda  parameter : expression
+
+>> when apply on a collection a funciton ,its structure:
+     **func(lambda parameter : expression ,collection)

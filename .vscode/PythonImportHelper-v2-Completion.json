@@ -1,0 +1,387 @@
+[
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "kind": 2,
+        "importPath": "function.arbitrary_arg",
+        "description": "function.arbitrary_arg",
+        "peekOfCode": "def func(*args, **kwargs):\n    print(\"args argument : ------- > \\n\")\n    for arg in args:\n        print(arg)\n    print(\"kwargs argument : ---------> \")\n    for key,value in kwargs.items():\n        print(f\"{key}   {value}\")\nfunc(\"one\",\"two\",\"three\",four=\"four\",five=\"five\",six=\"six\")",
+        "detail": "function.arbitrary_arg",
+        "documentation": {}
+    },
+    {
+        "label": "tax_usa",
+        "kind": 2,
+        "importPath": "function.func_as_argu",
+        "description": "function.func_as_argu",
+        "peekOfCode": "def tax_usa(price):\n    return price * 0.10\ndef tax_uk(price):\n    return price * 0.15\ndef total(func ,price):\n    return price+ func(price)\nprice =348\nprint(\"Total price in usa: \",total(tax_usa,price))\nprint(\"Total price in  uk: \",total(tax_uk,price))",
+        "detail": "function.func_as_argu",
+        "documentation": {}
+    },
+    {
+        "label": "tax_uk",
+        "kind": 2,
+        "importPath": "function.func_as_argu",
+        "description": "function.func_as_argu",
+        "peekOfCode": "def tax_uk(price):\n    return price * 0.15\ndef total(func ,price):\n    return price+ func(price)\nprice =348\nprint(\"Total price in usa: \",total(tax_usa,price))\nprint(\"Total price in  uk: \",total(tax_uk,price))",
+        "detail": "function.func_as_argu",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 2,
+        "importPath": "function.func_as_argu",
+        "description": "function.func_as_argu",
+        "peekOfCode": "def total(func ,price):\n    return price+ func(price)\nprice =348\nprint(\"Total price in usa: \",total(tax_usa,price))\nprint(\"Total price in  uk: \",total(tax_uk,price))",
+        "detail": "function.func_as_argu",
+        "documentation": {}
+    },
+    {
+        "label": "tax_usa",
+        "kind": 2,
+        "importPath": "function.func_return",
+        "description": "function.func_return",
+        "peekOfCode": "def tax_usa(price):\n    return price * 0.10\ndef tax_uk(price):\n    return price * 0.15\ndef user_country_tax(country):\n    if country == 'uk':\n        return tax_uk\n    return tax_usa\ncountry ='uk'\nprice =348",
+        "detail": "function.func_return",
+        "documentation": {}
+    },
+    {
+        "label": "tax_uk",
+        "kind": 2,
+        "importPath": "function.func_return",
+        "description": "function.func_return",
+        "peekOfCode": "def tax_uk(price):\n    return price * 0.15\ndef user_country_tax(country):\n    if country == 'uk':\n        return tax_uk\n    return tax_usa\ncountry ='uk'\nprice =348\ntax = user_country_tax(country)(price) #returing function\nprint(f\"user price :  {tax}\")",
+        "detail": "function.func_return",
+        "documentation": {}
+    },
+    {
+        "label": "user_country_tax",
+        "kind": 2,
+        "importPath": "function.func_return",
+        "description": "function.func_return",
+        "peekOfCode": "def user_country_tax(country):\n    if country == 'uk':\n        return tax_uk\n    return tax_usa\ncountry ='uk'\nprice =348\ntax = user_country_tax(country)(price) #returing function\nprint(f\"user price :  {tax}\")",
+        "detail": "function.func_return",
+        "documentation": {}
+    },
+    {
+        "label": "tax",
+        "kind": 5,
+        "importPath": "function.func_return",
+        "description": "function.func_return",
+        "peekOfCode": "tax = user_country_tax(country)(price) #returing function\nprint(f\"user price :  {tax}\")",
+        "detail": "function.func_return",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "function.func_store_ds",
+        "description": "function.func_store_ds",
+        "peekOfCode": "def add(x, y):\n    return x + y\ndef subtract(x, y):\n    return x - y\n# Storing functions in a dictionary\nd = {\n    \"add\": add,\n    \"subtract\": subtract\n}\n# Calling functions from the dictionary",
+        "detail": "function.func_store_ds",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "kind": 2,
+        "importPath": "function.func_store_ds",
+        "description": "function.func_store_ds",
+        "peekOfCode": "def subtract(x, y):\n    return x - y\n# Storing functions in a dictionary\nd = {\n    \"add\": add,\n    \"subtract\": subtract\n}\n# Calling functions from the dictionary\nprint(d[\"add\"](5, 3))       \nprint(d[\"subtract\"](5, 3))",
+        "detail": "function.func_store_ds",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "function.func_store_ds",
+        "description": "function.func_store_ds",
+        "peekOfCode": "d = {\n    \"add\": add,\n    \"subtract\": subtract\n}\n# Calling functions from the dictionary\nprint(d[\"add\"](5, 3))       \nprint(d[\"subtract\"](5, 3))",
+        "detail": "function.func_store_ds",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "function.function_as_varable",
+        "description": "function.function_as_varable",
+        "peekOfCode": "def add(a,b):\n    return a+b\n#assing function \nsum = add\nprint(sum(4,5))",
+        "detail": "function.function_as_varable",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "function.function_as_varable",
+        "description": "function.function_as_varable",
+        "peekOfCode": "sum = add\nprint(sum(4,5))",
+        "detail": "function.function_as_varable",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "kind": 2,
+        "importPath": "function.global_var_chage",
+        "description": "function.global_var_chage",
+        "peekOfCode": "def func():\n    '''to change a global variable in a scope we hav to exlplain is as global otherwise it consider as scope vaiable'''\n    global topic \n    topic=topic +\": in scope\"\n    print(\"topic value in scope: --------\",topic)\nprint(f\"Before calling the function : {topic}\") \nfunc()\nprint(f\"After calling the value,its scope change gloabal value: ---- {topic}\")",
+        "detail": "function.global_var_chage",
+        "documentation": {}
+    },
+    {
+        "label": "topic",
+        "kind": 5,
+        "importPath": "function.global_var_chage",
+        "description": "function.global_var_chage",
+        "peekOfCode": "topic = \"initial\"\ndef func():\n    '''to change a global variable in a scope we hav to exlplain is as global otherwise it consider as scope vaiable'''\n    global topic \n    topic=topic +\": in scope\"\n    print(\"topic value in scope: --------\",topic)\nprint(f\"Before calling the function : {topic}\") \nfunc()\nprint(f\"After calling the value,its scope change gloabal value: ---- {topic}\")",
+        "detail": "function.global_var_chage",
+        "documentation": {}
+    },
+    {
+        "label": "myFun",
+        "kind": 2,
+        "importPath": "function.pass_value_and_ref",
+        "description": "function.pass_value_and_ref",
+        "peekOfCode": "def myFun(x):\n    x[0] = 20\n    print(f\"Memory of {x} (object) :(object) {id(x)}\")\nb = [10, 11, 12, 13]\nprint(f\"Memory of {b} (object) :(object) {id(b)}\")\nmyFun(b)\nprint(b)\n#=================== here both hava some memroy addres as its passed by refernce\n#============== passed by balue\ndef myFun2(x):",
+        "detail": "function.pass_value_and_ref",
+        "documentation": {}
+    },
+    {
+        "label": "myFun2",
+        "kind": 2,
+        "importPath": "function.pass_value_and_ref",
+        "description": "function.pass_value_and_ref",
+        "peekOfCode": "def myFun2(x):\n    # 50  is another object\n    x = x+40\n    print(x)\n    print(f\"Memory of {x} (object) :(object) {id(x)}\")\n# here 10 is a object that refer to varibale x\nx = 10\nprint(f\"Memory of {x} (object): {id(x)}\")\nmyFun2(x)\nprint(x)",
+        "detail": "function.pass_value_and_ref",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "function.pass_value_and_ref",
+        "description": "function.pass_value_and_ref",
+        "peekOfCode": "b = [10, 11, 12, 13]\nprint(f\"Memory of {b} (object) :(object) {id(b)}\")\nmyFun(b)\nprint(b)\n#=================== here both hava some memroy addres as its passed by refernce\n#============== passed by balue\ndef myFun2(x):\n    # 50  is another object\n    x = x+40\n    print(x)",
+        "detail": "function.pass_value_and_ref",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "function.pass_value_and_ref",
+        "description": "function.pass_value_and_ref",
+        "peekOfCode": "x = 10\nprint(f\"Memory of {x} (object): {id(x)}\")\nmyFun2(x)\nprint(x)\n# memory oddress of object of x in not same in function and out of function\n# its is passed only value",
+        "detail": "function.pass_value_and_ref",
+        "documentation": {}
+    },
+    {
+        "label": "upper",
+        "kind": 2,
+        "importPath": "lambdaFunc.function_lambda",
+        "description": "lambdaFunc.function_lambda",
+        "peekOfCode": "def upper(a):\n    return a.upper()\nname =\"mzianur rahman\"\nupper_anme = list(map(lambda x : upper(x),name))\nprint(upper_anme)",
+        "detail": "lambdaFunc.function_lambda",
+        "documentation": {}
+    },
+    {
+        "label": "upper_anme",
+        "kind": 5,
+        "importPath": "lambdaFunc.function_lambda",
+        "description": "lambdaFunc.function_lambda",
+        "peekOfCode": "upper_anme = list(map(lambda x : upper(x),name))\nprint(upper_anme)",
+        "detail": "lambdaFunc.function_lambda",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "lambdaFunc.variable._lmbda",
+        "description": "lambdaFunc.variable._lmbda",
+        "peekOfCode": "a = \"Mizanur rahama\"\nupper = lambda x : x.upper()\na_upper = upper(a)\nprint(a_upper)",
+        "detail": "lambdaFunc.variable._lmbda",
+        "documentation": {}
+    },
+    {
+        "label": "upper",
+        "kind": 5,
+        "importPath": "lambdaFunc.variable._lmbda",
+        "description": "lambdaFunc.variable._lmbda",
+        "peekOfCode": "upper = lambda x : x.upper()\na_upper = upper(a)\nprint(a_upper)",
+        "detail": "lambdaFunc.variable._lmbda",
+        "documentation": {}
+    },
+    {
+        "label": "a_upper",
+        "kind": 5,
+        "importPath": "lambdaFunc.variable._lmbda",
+        "description": "lambdaFunc.variable._lmbda",
+        "peekOfCode": "a_upper = upper(a)\nprint(a_upper)",
+        "detail": "lambdaFunc.variable._lmbda",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "oop.abstraction",
+        "description": "oop.abstraction",
+        "peekOfCode": "class Car(ABC):\n    #! ******* abstract method\n    @abstractmethod\n    def color():\n        pass\n    @abstractmethod\n    def sound():\n        pass\n    @abstractmethod\n    def engine():",
+        "detail": "oop.abstraction",
+        "documentation": {}
+    },
+    {
+        "label": "Toyota",
+        "kind": 6,
+        "importPath": "oop.abstraction",
+        "description": "oop.abstraction",
+        "peekOfCode": "class Toyota(Car):\n    def color(self):\n        return \"toyota sound\"\n    def engine(self):\n        return \"toyota engine\"\n    def owner(self):\n        return \"toyota owner\"\n    def sound(self):\n        return \"toyota sound\"\nclass Tesla(Car):",
+        "detail": "oop.abstraction",
+        "documentation": {}
+    },
+    {
+        "label": "Tesla",
+        "kind": 6,
+        "importPath": "oop.abstraction",
+        "description": "oop.abstraction",
+        "peekOfCode": "class Tesla(Car):\n    def color(self):\n        return \"Tesla sound\"\n    def engine(self):\n        return \"Tesla engine\"\n    def owner(self):\n        return \"Tesla owner\"\n    def sound(self):\n        return \"Tesla sound\"\ntoyoto=Toyota()",
+        "detail": "oop.abstraction",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "kind": 6,
+        "importPath": "oop.obj",
+        "description": "oop.obj",
+        "peekOfCode": "class Student:\n    #------- class attribute ------\n    university = \"xyz universiy\"\n    uni_location = \"chitagong\"\n    def __init__(\n        self,\n        name:str,\n        age:int,\n        id=None,\n        dept=None):",
+        "detail": "oop.obj",
+        "documentation": {}
+    },
+    {
+        "label": "mizan",
+        "kind": 5,
+        "importPath": "oop.obj",
+        "description": "oop.obj",
+        "peekOfCode": "mizan = Student(\"mizan\",27)\nprint(mizan)",
+        "detail": "oop.obj",
+        "documentation": {}
+    },
+    {
+        "label": "CompiletimePholimorphisom",
+        "kind": 6,
+        "importPath": "oop.overloading",
+        "description": "oop.overloading",
+        "peekOfCode": "class CompiletimePholimorphisom:\n    def add(self,a,b):\n        return a+b\n    def add(self,a,b,c):\n        \"compile willl last function ,if we give two argument it will arise a eroor\"\n        return a+b+c\n# obj = CompiletimePholimorphisom()\n# print(obj.add(4,5))",
+        "detail": "oop.overloading",
+        "documentation": {}
+    },
+    {
+        "label": "Solutin_defatuld_argumet_CompiletimePholimorphisom",
+        "kind": 6,
+        "importPath": "oop.overloading",
+        "description": "oop.overloading",
+        "peekOfCode": "class Solutin_defatuld_argumet_CompiletimePholimorphisom:\n    def add(self,a,b):\n        print(\"First Function\")\n        return a+b\n    def add(self,a,b,c=5):\n        print(\"Second function \")\n        return a+b+c\nobj =  Solutin_defatuld_argumet_CompiletimePholimorphisom()\nprint(obj.add(4,5))",
+        "detail": "oop.overloading",
+        "documentation": {}
+    },
+    {
+        "label": "Solutin_defatuld_argumet_CompiletimePholimorphisom",
+        "kind": 6,
+        "importPath": "oop.overloading",
+        "description": "oop.overloading",
+        "peekOfCode": "class Solutin_defatuld_argumet_CompiletimePholimorphisom:\n    def add(self,a,b):\n        print(\"fist funciton\")\n        return a+b\n    def add(self,a,b,*args):\n        print(\"Second Function\")\n        return a+b+sum(args)\nobj =  Solutin_defatuld_argumet_CompiletimePholimorphisom()\nprint(obj.add(4,5,6,565,7))",
+        "detail": "oop.overloading",
+        "documentation": {}
+    },
+    {
+        "label": "obj",
+        "kind": 5,
+        "importPath": "oop.overloading",
+        "description": "oop.overloading",
+        "peekOfCode": "obj =  Solutin_defatuld_argumet_CompiletimePholimorphisom()\nprint(obj.add(4,5))\n#=================== also we can use argumetn /kewword arguments============\nclass Solutin_defatuld_argumet_CompiletimePholimorphisom:\n    def add(self,a,b):\n        print(\"fist funciton\")\n        return a+b\n    def add(self,a,b,*args):\n        print(\"Second Function\")\n        return a+b+sum(args)",
+        "detail": "oop.overloading",
+        "documentation": {}
+    },
+    {
+        "label": "obj",
+        "kind": 5,
+        "importPath": "oop.overloading",
+        "description": "oop.overloading",
+        "peekOfCode": "obj =  Solutin_defatuld_argumet_CompiletimePholimorphisom()\nprint(obj.add(4,5,6,565,7))",
+        "detail": "oop.overloading",
+        "documentation": {}
+    },
+    {
+        "label": "Animal",
+        "kind": 6,
+        "importPath": "oop.overridding",
+        "description": "oop.overridding",
+        "peekOfCode": "class Animal:\n    def sound(self):\n        return \"Animal sound\"\nclass Dog(Animal):\n    def sound(self):\n        return \"Gaw Gaw Gaw !!\"\nclass Cow(Animal):\n    def sound(self):\n        #calling super class sound\n        return super().sound()",
+        "detail": "oop.overridding",
+        "documentation": {}
+    },
+    {
+        "label": "Dog",
+        "kind": 6,
+        "importPath": "oop.overridding",
+        "description": "oop.overridding",
+        "peekOfCode": "class Dog(Animal):\n    def sound(self):\n        return \"Gaw Gaw Gaw !!\"\nclass Cow(Animal):\n    def sound(self):\n        #calling super class sound\n        return super().sound()\nobj = Cow()\nprint(obj.sound())",
+        "detail": "oop.overridding",
+        "documentation": {}
+    },
+    {
+        "label": "Cow",
+        "kind": 6,
+        "importPath": "oop.overridding",
+        "description": "oop.overridding",
+        "peekOfCode": "class Cow(Animal):\n    def sound(self):\n        #calling super class sound\n        return super().sound()\nobj = Cow()\nprint(obj.sound())",
+        "detail": "oop.overridding",
+        "documentation": {}
+    },
+    {
+        "label": "obj",
+        "kind": 5,
+        "importPath": "oop.overridding",
+        "description": "oop.overridding",
+        "peekOfCode": "obj = Cow()\nprint(obj.sound())",
+        "detail": "oop.overridding",
+        "documentation": {}
+    },
+    {
+        "label": "Father",
+        "kind": 6,
+        "importPath": "oop.super()",
+        "description": "oop.super()",
+        "peekOfCode": "class Father:\n    def __init__(self, father_name):\n        self.father_name = father_name\n    def details(self):\n        return f\"{self.father_name} : Father\"\nclass Student(Father):\n    def __init__(self, name, father_name):\n        super().__init__(father_name)\n        self.name = name\n    def details(self):",
+        "detail": "oop.super()",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "kind": 6,
+        "importPath": "oop.super()",
+        "description": "oop.super()",
+        "peekOfCode": "class Student(Father):\n    def __init__(self, name, father_name):\n        super().__init__(father_name)\n        self.name = name\n    def details(self):\n        return f\"{self.name} Father is {self.father_name}\"\nmiz = Student(\"Mizan\", \"Milon\")\nprint(miz.details())\n# call super class data of object........*****\nprint(Father.details(miz))",
+        "detail": "oop.super()",
+        "documentation": {}
+    },
+    {
+        "label": "miz",
+        "kind": 5,
+        "importPath": "oop.super()",
+        "description": "oop.super()",
+        "peekOfCode": "miz = Student(\"Mizan\", \"Milon\")\nprint(miz.details())\n# call super class data of object........*****\nprint(Father.details(miz))",
+        "detail": "oop.super()",
+        "documentation": {}
+    }
+]

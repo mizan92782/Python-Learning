@@ -1,0 +1,9 @@
+
+
+There are many types of function assing in python...
+
+1. funciton as variable
+2.funciton ar argument
+3. Funnction Returing
+4.Store functin in data structure
+5.
