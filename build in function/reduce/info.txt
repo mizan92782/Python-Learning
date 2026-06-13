@@ -1,0 +1,1 @@
+reduce() function (from the functools module) applies a function cumulatively to the elements of an iterable and returns a single final value. It processes elements step-by-step, combining two elements at a time until only one result remains

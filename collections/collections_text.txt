@@ -1,0 +1,2 @@
+
+# dequeue  -->  [doouble link list , stack]

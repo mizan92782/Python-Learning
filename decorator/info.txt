@@ -1,0 +1,4 @@
+Decorators are flexible way to modify or extend behavior of functions or methods, without changing their actual code.
+
+A decorator is essentially a function that takes another function as an argument and returns a new function with enhanced functionality.
+They are often used in scenarios such as logging, authentication and memoization, allowing us to add additional functionality to existing functions or methods in a clean, reusable way.

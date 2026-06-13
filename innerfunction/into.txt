@@ -1,0 +1,7 @@
+In Python, an inner function (also called a nested function) is a function defined inside another function. They are mainly used for:
+
+Encapsulation: Hiding helper logic from external access.
+Code Organization: Grouping related functionality for cleaner code.
+Access to Outer Variables: Inner functions can use variables of the enclosing (outer) function.
+Closures and Decorators: Supporting advanced features like closures (functions that remember values) and function decorators.
+
