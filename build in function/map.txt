@@ -1,0 +1,5 @@
+
+# map func is use for apply a functiong to apply all element of a iterable obects
+# and return a object****** vvi
+# can take mulitple iterable 
+# can apply lambda
