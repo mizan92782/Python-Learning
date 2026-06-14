@@ -1,5 +1,78 @@
 [
     {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "cached_property",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "accumulate",
+        "importPath": "itertools",
+        "description": "itertools",
+        "isExtraImport": true,
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "operator",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "operator",
+        "description": "operator",
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
         "label": "ABC",
         "importPath": "abc",
         "description": "abc",
@@ -13,6 +86,411 @@
         "description": "abc",
         "isExtraImport": true,
         "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "even",
+        "kind": 2,
+        "importPath": "build in function.filter.one",
+        "description": "build in function.filter.one",
+        "peekOfCode": "def even(n):\n    return n % 2 == 0\na = [1, 2, 3, 4, 5, 6]\nb = filter(even, a)\nprint(list(b)) # Convert filter object to a list",
+        "detail": "build in function.filter.one",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "build in function.filter.one",
+        "description": "build in function.filter.one",
+        "peekOfCode": "a = [1, 2, 3, 4, 5, 6]\nb = filter(lambda x: x % 3 == 0, a)\nprint(list(b))\ndef even(n):\n    return n % 2 == 0\na = [1, 2, 3, 4, 5, 6]\nb = filter(even, a)\nprint(list(b)) # Convert filter object to a list",
+        "detail": "build in function.filter.one",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "build in function.filter.one",
+        "description": "build in function.filter.one",
+        "peekOfCode": "b = filter(lambda x: x % 3 == 0, a)\nprint(list(b))\ndef even(n):\n    return n % 2 == 0\na = [1, 2, 3, 4, 5, 6]\nb = filter(even, a)\nprint(list(b)) # Convert filter object to a list",
+        "detail": "build in function.filter.one",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "build in function.filter.one",
+        "description": "build in function.filter.one",
+        "peekOfCode": "a = [1, 2, 3, 4, 5, 6]\nb = filter(even, a)\nprint(list(b)) # Convert filter object to a list",
+        "detail": "build in function.filter.one",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "build in function.filter.one",
+        "description": "build in function.filter.one",
+        "peekOfCode": "b = filter(even, a)\nprint(list(b)) # Convert filter object to a list",
+        "detail": "build in function.filter.one",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "build in function.reduce.accumulate_reduce",
+        "description": "build in function.reduce.accumulate_reduce",
+        "peekOfCode": "a = [1, 2, 3, 4, 5]\nacc= accumulate(a,add)\nred = reduce(add,a)\nprint(list(acc))\nprint(red)",
+        "detail": "build in function.reduce.accumulate_reduce",
+        "documentation": {}
+    },
+    {
+        "label": "red",
+        "kind": 5,
+        "importPath": "build in function.reduce.accumulate_reduce",
+        "description": "build in function.reduce.accumulate_reduce",
+        "peekOfCode": "red = reduce(add,a)\nprint(list(acc))\nprint(red)",
+        "detail": "build in function.reduce.accumulate_reduce",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "build in function.reduce.one",
+        "description": "build in function.reduce.one",
+        "peekOfCode": "a = ['mizan','is' ,'good','boy']\nmessageg = reduce(lambda x,y: x+\" \"+y,a)\nprint(messageg)\n#======================= accumulative /summetiaon\nnum =[4,5,2,5,22,44,33]\nsum = reduce(lambda x,y : x+y,num)\nprint(sum)\n#============= greeter number\ngreater = reduce(lambda x,y : x if x>y else y,num)\nprint(greater)",
+        "detail": "build in function.reduce.one",
+        "documentation": {}
+    },
+    {
+        "label": "messageg",
+        "kind": 5,
+        "importPath": "build in function.reduce.one",
+        "description": "build in function.reduce.one",
+        "peekOfCode": "messageg = reduce(lambda x,y: x+\" \"+y,a)\nprint(messageg)\n#======================= accumulative /summetiaon\nnum =[4,5,2,5,22,44,33]\nsum = reduce(lambda x,y : x+y,num)\nprint(sum)\n#============= greeter number\ngreater = reduce(lambda x,y : x if x>y else y,num)\nprint(greater)",
+        "detail": "build in function.reduce.one",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "build in function.reduce.one",
+        "description": "build in function.reduce.one",
+        "peekOfCode": "sum = reduce(lambda x,y : x+y,num)\nprint(sum)\n#============= greeter number\ngreater = reduce(lambda x,y : x if x>y else y,num)\nprint(greater)",
+        "detail": "build in function.reduce.one",
+        "documentation": {}
+    },
+    {
+        "label": "greater",
+        "kind": 5,
+        "importPath": "build in function.reduce.one",
+        "description": "build in function.reduce.one",
+        "peekOfCode": "greater = reduce(lambda x,y : x if x>y else y,num)\nprint(greater)",
+        "detail": "build in function.reduce.one",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "build in function.reduce.reduce_with_oprator",
+        "description": "build in function.reduce.reduce_with_oprator",
+        "peekOfCode": "a = [1, 3, 5, 6, 2]\nsum = reduce(operator.add,a)\nprint(sum)",
+        "detail": "build in function.reduce.reduce_with_oprator",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "build in function.reduce.reduce_with_oprator",
+        "description": "build in function.reduce.reduce_with_oprator",
+        "peekOfCode": "sum = reduce(operator.add,a)\nprint(sum)",
+        "detail": "build in function.reduce.reduce_with_oprator",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "build in function.str.ste_exmaple",
+        "description": "build in function.str.ste_exmaple",
+        "peekOfCode": "name = [\"Mizan\",\"sizaan\", \" asif \", \"  Akash\", \"BATAS\" , \" NODI\",\"NALa\"] \nres = list(map(str.title,name))\nprint(res)\nprint('\\n')\nres = list(map(str.strip,name))\nprint(res)\nres = list(map(lambda x: x.find('za'),name))\nprint(res)\nres = list(map(lambda x: x.split('a'),name))\nprint(res)",
+        "detail": "build in function.str.ste_exmaple",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "build in function.str.ste_exmaple",
+        "description": "build in function.str.ste_exmaple",
+        "peekOfCode": "res = list(map(str.title,name))\nprint(res)\nprint('\\n')\nres = list(map(str.strip,name))\nprint(res)\nres = list(map(lambda x: x.find('za'),name))\nprint(res)\nres = list(map(lambda x: x.split('a'),name))\nprint(res)\nres = list(map(lambda x: x.count('a'),name))",
+        "detail": "build in function.str.ste_exmaple",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "build in function.str.ste_exmaple",
+        "description": "build in function.str.ste_exmaple",
+        "peekOfCode": "res = list(map(str.strip,name))\nprint(res)\nres = list(map(lambda x: x.find('za'),name))\nprint(res)\nres = list(map(lambda x: x.split('a'),name))\nprint(res)\nres = list(map(lambda x: x.count('a'),name))\nprint(res)",
+        "detail": "build in function.str.ste_exmaple",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "build in function.str.ste_exmaple",
+        "description": "build in function.str.ste_exmaple",
+        "peekOfCode": "res = list(map(lambda x: x.find('za'),name))\nprint(res)\nres = list(map(lambda x: x.split('a'),name))\nprint(res)\nres = list(map(lambda x: x.count('a'),name))\nprint(res)\nprint(name)",
+        "detail": "build in function.str.ste_exmaple",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "build in function.str.ste_exmaple",
+        "description": "build in function.str.ste_exmaple",
+        "peekOfCode": "res = list(map(lambda x: x.split('a'),name))\nprint(res)\nres = list(map(lambda x: x.count('a'),name))\nprint(res)\nprint(name)\nres = list(map(lambda x: x.join('-'),name))\nprint(res)",
+        "detail": "build in function.str.ste_exmaple",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "build in function.str.ste_exmaple",
+        "description": "build in function.str.ste_exmaple",
+        "peekOfCode": "res = list(map(lambda x: x.count('a'),name))\nprint(res)\nprint(name)\nres = list(map(lambda x: x.join('-'),name))\nprint(res)\nname = [\"Mizan\", \"Sizan\", \"Asif\"]\nres = \"-\".join(name)\nprint(res)",
+        "detail": "build in function.str.ste_exmaple",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "build in function.str.ste_exmaple",
+        "description": "build in function.str.ste_exmaple",
+        "peekOfCode": "res = list(map(lambda x: x.join('-'),name))\nprint(res)\nname = [\"Mizan\", \"Sizan\", \"Asif\"]\nres = \"-\".join(name)\nprint(res)",
+        "detail": "build in function.str.ste_exmaple",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "build in function.str.ste_exmaple",
+        "description": "build in function.str.ste_exmaple",
+        "peekOfCode": "name = [\"Mizan\", \"Sizan\", \"Asif\"]\nres = \"-\".join(name)\nprint(res)",
+        "detail": "build in function.str.ste_exmaple",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "build in function.str.ste_exmaple",
+        "description": "build in function.str.ste_exmaple",
+        "peekOfCode": "res = \"-\".join(name)\nprint(res)",
+        "detail": "build in function.str.ste_exmaple",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "build in function.iter_next",
+        "description": "build in function.iter_next",
+        "peekOfCode": "name = \"mizanur rahman\"\nprint(f\"Data type {type(name)}\")\n#make iter object\nname = iter(name)\nprint(f\"Data type {type(name)}\")\nprint(next(name))\nprint(next(name))\nprint(next(name))\nprint(next(name))\nprint(next(name))",
+        "detail": "build in function.iter_next",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "build in function.iter_next",
+        "description": "build in function.iter_next",
+        "peekOfCode": "name = iter(name)\nprint(f\"Data type {type(name)}\")\nprint(next(name))\nprint(next(name))\nprint(next(name))\nprint(next(name))\nprint(next(name))",
+        "detail": "build in function.iter_next",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "build in function.map",
+        "description": "build in function.map",
+        "peekOfCode": "s = ['1', '2', '3', '4']\n# map all integer\nres = map(int, s)\n# as return obect res is object\nprint(res)\n# make list\nprint(list(res))",
+        "detail": "build in function.map",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "build in function.map",
+        "description": "build in function.map",
+        "peekOfCode": "res = map(int, s)\n# as return obect res is object\nprint(res)\n# make list\nprint(list(res))",
+        "detail": "build in function.map",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_prices_tax",
+        "kind": 2,
+        "importPath": "build in function.map2",
+        "description": "build in function.map2",
+        "peekOfCode": "def calculate_prices_tax(price):\n    return price + price* 0.10\n#product price \nprice =[430,234,333,664,323]\n#calculate price for all product\nfinal_price = map(calculate_prices_tax,price)\n# as map return obect wr dont see resutl\nprint(final_price)",
+        "detail": "build in function.map2",
+        "documentation": {}
+    },
+    {
+        "label": "final_price",
+        "kind": 5,
+        "importPath": "build in function.map2",
+        "description": "build in function.map2",
+        "peekOfCode": "final_price = map(calculate_prices_tax,price)\n# as map return obect wr dont see resutl\nprint(final_price)\n# make list and get resutl\nprint(list(final_price))",
+        "detail": "build in function.map2",
+        "documentation": {}
+    },
+    {
+        "label": "tax",
+        "kind": 5,
+        "importPath": "build in function.map3_multiple_ite",
+        "description": "build in function.map3_multiple_ite",
+        "peekOfCode": "tax = [4,5.3,5.6,3]\ntotal_price  = map(lambda x,y : x+y,price,tax)\nprint(total_price)  #------------> obeject\n#make list\nprint(list(total_price))",
+        "detail": "build in function.map3_multiple_ite",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "build in function.map_usage",
+        "description": "build in function.map_usage",
+        "peekOfCode": "res = list(map(str.upper,name))\nprint(res)\n#=========== extractin workd\nres = list(map(lambda x : x[0],name))\nprint(res)\nres = list(map(lambda x : x[0:3],name))\nprint(res)",
+        "detail": "build in function.map_usage",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "build in function.map_usage",
+        "description": "build in function.map_usage",
+        "peekOfCode": "res = list(map(lambda x : x[0],name))\nprint(res)\nres = list(map(lambda x : x[0:3],name))\nprint(res)\n# removein white space\ns = ['  hello  ', '  world ', ' python  ']\nres = map(str.strip, s)\nprint(list(res))",
+        "detail": "build in function.map_usage",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "build in function.map_usage",
+        "description": "build in function.map_usage",
+        "peekOfCode": "res = list(map(lambda x : x[0:3],name))\nprint(res)\n# removein white space\ns = ['  hello  ', '  world ', ' python  ']\nres = map(str.strip, s)\nprint(list(res))\n#========= calculating",
+        "detail": "build in function.map_usage",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "build in function.map_usage",
+        "description": "build in function.map_usage",
+        "peekOfCode": "s = ['  hello  ', '  world ', ' python  ']\nres = map(str.strip, s)\nprint(list(res))\n#========= calculating\ns = ['  hello  ', '  world ', ' python  ']\nres = map(str.strip, s)\nprint(list(res))",
+        "detail": "build in function.map_usage",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "build in function.map_usage",
+        "description": "build in function.map_usage",
+        "peekOfCode": "res = map(str.strip, s)\nprint(list(res))\n#========= calculating\ns = ['  hello  ', '  world ', ' python  ']\nres = map(str.strip, s)\nprint(list(res))",
+        "detail": "build in function.map_usage",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "build in function.map_usage",
+        "description": "build in function.map_usage",
+        "peekOfCode": "s = ['  hello  ', '  world ', ' python  ']\nres = map(str.strip, s)\nprint(list(res))",
+        "detail": "build in function.map_usage",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "build in function.map_usage",
+        "description": "build in function.map_usage",
+        "peekOfCode": "res = map(str.strip, s)\nprint(list(res))",
+        "detail": "build in function.map_usage",
+        "documentation": {}
+    },
+    {
+        "label": "Data",
+        "kind": 6,
+        "importPath": "class_decorator.cached_property",
+        "description": "class_decorator.cached_property",
+        "peekOfCode": "class Data:\n    @cached_property\n    def heavy_task(self):\n        print(\"Computing...\")\n        total = sum(range(1000000))\n        return total\nd = Data()\nprint(d.heavy_task)  # computed\nprint(d.heavy_task)  # cached, no recomputation",
+        "detail": "class_decorator.cached_property",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "class_decorator.cached_property",
+        "description": "class_decorator.cached_property",
+        "peekOfCode": "d = Data()\nprint(d.heavy_task)  # computed\nprint(d.heavy_task)  # cached, no recomputation",
+        "detail": "class_decorator.cached_property",
+        "documentation": {}
+    },
+    {
+        "label": "Calculation",
+        "kind": 6,
+        "importPath": "class_decorator.cls_dec",
+        "description": "class_decorator.cls_dec",
+        "peekOfCode": "class Calculation:\n    clsmem=\"clss member\"\n    def __init__(self,radius):\n        self._radius=radius\n    @staticmethod\n    def staticmeth():\n        print(\"Static method no receive either self or clss\")\n    @classmethod\n    def clsmethod(cls):\n        cls.clsmethod=\"change member\"",
+        "detail": "class_decorator.cls_dec",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "kind": 6,
+        "importPath": "class_decorator.dataclass",
+        "description": "class_decorator.dataclass",
+        "peekOfCode": "class Student:\n    name: str\n    age: int",
+        "detail": "class_decorator.dataclass",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "collections.dequeue.dq",
+        "description": "collections.dequeue.dq",
+        "peekOfCode": "num = [5, 2, 4, 22, 12, 6]\ndq = deque(num)  #make deque\n# rotate\ndq.rotate(1)\nprint(dq)\nwhile dq:\n    x = dq.popleft()\n    print(x)",
+        "detail": "collections.dequeue.dq",
+        "documentation": {}
+    },
+    {
+        "label": "dq",
+        "kind": 5,
+        "importPath": "collections.dequeue.dq",
+        "description": "collections.dequeue.dq",
+        "peekOfCode": "dq = deque(num)  #make deque\n# rotate\ndq.rotate(1)\nprint(dq)\nwhile dq:\n    x = dq.popleft()\n    print(x)",
+        "detail": "collections.dequeue.dq",
+        "documentation": {}
+    },
+    {
+        "label": "argumentInfo",
+        "kind": 2,
+        "importPath": "decorator.one",
+        "description": "decorator.one",
+        "peekOfCode": "def argumentInfo(func):\n    def wrapper(*args, **kwargs):\n        print(\"Arguments in this function:\")\n        for arg in args:\n            print(arg)\n        print(\"Kwargs in this function:\")\n        for key, value in kwargs.items():\n            print(f\"{key} = {value}\")\n        return func(*args, **kwargs)\n    return wrapper",
+        "detail": "decorator.one",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "decorator.one",
+        "description": "decorator.one",
+        "peekOfCode": "def add(*args, **kwargs):\n    return sum(args) + sum(kwargs.values())\nres = add(4, 5,c=6)\nprint(\"sum : \",res)",
+        "detail": "decorator.one",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "decorator.one",
+        "description": "decorator.one",
+        "peekOfCode": "res = add(4, 5,c=6)\nprint(\"sum : \",res)",
+        "detail": "decorator.one",
         "documentation": {}
     },
     {
@@ -187,6 +665,15 @@
         "documentation": {}
     },
     {
+        "label": "total_price",
+        "kind": 2,
+        "importPath": "innerfunction.one",
+        "description": "innerfunction.one",
+        "peekOfCode": "def total_price(price):\n    #hidding logic from enternal access\n    def tax():\n        if price>100:\n            return price*0.10\n        else:\n            return price * 0.15\n    return price + tax()\nprint(total_price(200))\nprint(total_price(90))",
+        "detail": "innerfunction.one",
+        "documentation": {}
+    },
+    {
         "label": "upper",
         "kind": 2,
         "importPath": "lambdaFunc.function_lambda",
@@ -256,6 +743,42 @@
         "description": "oop.abstraction",
         "peekOfCode": "class Tesla(Car):\n    def color(self):\n        return \"Tesla sound\"\n    def engine(self):\n        return \"Tesla engine\"\n    def owner(self):\n        return \"Tesla owner\"\n    def sound(self):\n        return \"Tesla sound\"\ntoyoto=Toyota()",
         "detail": "oop.abstraction",
+        "documentation": {}
+    },
+    {
+        "label": "Father",
+        "kind": 6,
+        "importPath": "oop.incapsulation",
+        "description": "oop.incapsulation",
+        "peekOfCode": "class Father:\n    def __init__(self,name,home,salary):\n        self.name = name  #public\n        self._home = home #protected\n        self.__salary =salary  # private\n    def fathe_info(self):\n        return {\n            \"Name\" : self.name,\n            \"Home\": self._home,\n            \"Salary\" : self.__salary",
+        "detail": "oop.incapsulation",
+        "documentation": {}
+    },
+    {
+        "label": "Son",
+        "kind": 6,
+        "importPath": "oop.incapsulation",
+        "description": "oop.incapsulation",
+        "peekOfCode": "class Son(Father):\n    def __init__(self,sname,age,fname,home,salary):\n        super().__init__(fname,home,salary)\n        self.sname=sname\n        self.__age =age\n    def fathersalary(self):\n        return self._Father__salary\nson = Son(\"mizan\",22,\"milon\",\"noakhali\",4545434)\ndata =son.fathe_info()\nprint(data)",
+        "detail": "oop.incapsulation",
+        "documentation": {}
+    },
+    {
+        "label": "son",
+        "kind": 5,
+        "importPath": "oop.incapsulation",
+        "description": "oop.incapsulation",
+        "peekOfCode": "son = Son(\"mizan\",22,\"milon\",\"noakhali\",4545434)\ndata =son.fathe_info()\nprint(data)\nfather = Father(\"milon\",\"dhaka\",949)\nprint(father._home)\nprint(son.fathersalary())",
+        "detail": "oop.incapsulation",
+        "documentation": {}
+    },
+    {
+        "label": "father",
+        "kind": 5,
+        "importPath": "oop.incapsulation",
+        "description": "oop.incapsulation",
+        "peekOfCode": "father = Father(\"milon\",\"dhaka\",949)\nprint(father._home)\nprint(son.fathersalary())",
+        "detail": "oop.incapsulation",
         "documentation": {}
     },
     {
