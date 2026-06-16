@@ -32,6 +32,38 @@
         "documentation": {}
     },
     {
+        "label": "OrderedDict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "OrderedDict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "OrderedDict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "OrderedDict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
         "label": "ctr",
         "kind": 5,
         "importPath": "counter.counter_func",
@@ -92,6 +124,69 @@
         "description": "deque.dq",
         "peekOfCode": "dq = deque(num)  #make deque\n# rotate\ndq.rotate(1)\nprint(dq)\nwhile dq:\n    x = dq.popleft()\n    print(x)",
         "detail": "deque.dq",
+        "documentation": {}
+    },
+    {
+        "label": "od",
+        "kind": 5,
+        "importPath": "orderDict.init",
+        "description": "orderDict.init",
+        "peekOfCode": "od = OrderedDict()\nod['apple'] = 1\nod['banana'] = 2\nod['cherry'] = 3\nprint(list(od.items()))\nprint(od.keys())\nprint(od.values())\nprint(od['apple'])",
+        "detail": "orderDict.init",
+        "documentation": {}
+    },
+    {
+        "label": "od['apple']",
+        "kind": 5,
+        "importPath": "orderDict.init",
+        "description": "orderDict.init",
+        "peekOfCode": "od['apple'] = 1\nod['banana'] = 2\nod['cherry'] = 3\nprint(list(od.items()))\nprint(od.keys())\nprint(od.values())\nprint(od['apple'])",
+        "detail": "orderDict.init",
+        "documentation": {}
+    },
+    {
+        "label": "od['banana']",
+        "kind": 5,
+        "importPath": "orderDict.init",
+        "description": "orderDict.init",
+        "peekOfCode": "od['banana'] = 2\nod['cherry'] = 3\nprint(list(od.items()))\nprint(od.keys())\nprint(od.values())\nprint(od['apple'])",
+        "detail": "orderDict.init",
+        "documentation": {}
+    },
+    {
+        "label": "od['cherry']",
+        "kind": 5,
+        "importPath": "orderDict.init",
+        "description": "orderDict.init",
+        "peekOfCode": "od['cherry'] = 3\nprint(list(od.items()))\nprint(od.keys())\nprint(od.values())\nprint(od['apple'])",
+        "detail": "orderDict.init",
+        "documentation": {}
+    },
+    {
+        "label": "d1",
+        "kind": 5,
+        "importPath": "orderDict.mote_to_end",
+        "description": "orderDict.mote_to_end",
+        "peekOfCode": "d1 = OrderedDict([('a', 1), ('b', 2), ('c', 3)])\nd1['t']=6\nd1['e']=4\n# mote to end\nd1.move_to_end('a')\n#deleting element\nd1.pop('b')\nfor k, v in d1.items():\n    print(k, v)",
+        "detail": "orderDict.mote_to_end",
+        "documentation": {}
+    },
+    {
+        "label": "d1",
+        "kind": 5,
+        "importPath": "orderDict.popitem",
+        "description": "orderDict.popitem",
+        "peekOfCode": "d1 = OrderedDict([('a', 1), ('b', 2), ('c', 3)])\n# pop last of first item\nd1.popitem(last=False)\nfor k, v in d1.items():\n    print(k, v)",
+        "detail": "orderDict.popitem",
+        "documentation": {}
+    },
+    {
+        "label": "d1",
+        "kind": 5,
+        "importPath": "orderDict.reversedict",
+        "description": "orderDict.reversedict",
+        "peekOfCode": "d1 = OrderedDict([('a', 1), ('b', 2), ('c', 3)])\nd1.popitem(last=False)\nfor k, v in d1.items():\n    print(k, v)",
+        "detail": "orderDict.reversedict",
         "documentation": {}
     }
 ]
