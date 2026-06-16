@@ -1,0 +1,7 @@
+OrderedDict is used when we need a dictionary that remembers the order in which items are inserted.
+
+🔥 Why it is useful?
+Maintains insertion order explicitly (especially important in older Python versions < 3.7)
+Useful when order of data matters (like logs, steps, sequences)
+Helps in algorithms where order tracking is required (LRU cache, parsing, etc.)
+Allows reordering of elements using methods like move_to_end()

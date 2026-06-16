@@ -1,0 +1,4 @@
+**** Queue can implment in tree way in python  : -
+  1. Using List
+  2. Using collections Deque
+  2. Uaing Queue from queue

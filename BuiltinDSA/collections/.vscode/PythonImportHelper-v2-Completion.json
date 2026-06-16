@@ -1,0 +1,97 @@
+[
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "ctr",
+        "kind": 5,
+        "importPath": "counter.counter_func",
+        "description": "counter.counter_func",
+        "peekOfCode": "ctr = Counter([1, 2, 2, 3, 3, 3])\nprint(\"Counter: \", ctr)\n#======== Update counter ==========\nctr.update([4,3,5,2])\nprint(\"Counter: \", ctr)\n# extract\nnum = list(ctr.elements())\nprint(\"extracted element : \", num)",
+        "detail": "counter.counter_func",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "counter.counter_func",
+        "description": "counter.counter_func",
+        "peekOfCode": "num = list(ctr.elements())\nprint(\"extracted element : \", num)\nprint(\"most frequency element: \",ctr.most_common(1))\nprint(\"most frequency element: \",ctr.most_common(5))\n# increase counter manually :\nctr[3]+=8\nctr[4] += 5\nprint(\"counter after manually increae : \",ctr)\n# subtract\nctr.subtract([2, 2, 3])",
+        "detail": "counter.counter_func",
+        "documentation": {}
+    },
+    {
+        "label": "ctr1",
+        "kind": 5,
+        "importPath": "counter.counter_func",
+        "description": "counter.counter_func",
+        "peekOfCode": "ctr1 = Counter([1, 2, 2, 3])\nctr2 = Counter([2, 3, 3, 4])\nprint(ctr1 + ctr2)   # Addition\nprint(ctr1 - ctr2)   # Subtraction \nprint(ctr1 & ctr2)   # Intersection\nprint(ctr1 | ctr2)   # Union",
+        "detail": "counter.counter_func",
+        "documentation": {}
+    },
+    {
+        "label": "ctr2",
+        "kind": 5,
+        "importPath": "counter.counter_func",
+        "description": "counter.counter_func",
+        "peekOfCode": "ctr2 = Counter([2, 3, 3, 4])\nprint(ctr1 + ctr2)   # Addition\nprint(ctr1 - ctr2)   # Subtraction \nprint(ctr1 & ctr2)   # Intersection\nprint(ctr1 | ctr2)   # Union",
+        "detail": "counter.counter_func",
+        "documentation": {}
+    },
+    {
+        "label": "cout",
+        "kind": 5,
+        "importPath": "counter.init",
+        "description": "counter.init",
+        "peekOfCode": "cout = Counter(list)\nprint(\"list count:\",cout)\nprint(\"Frequenecy mapping : \", end=\"\")\nprint(cout[4])",
+        "detail": "counter.init",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "deque.dq",
+        "description": "deque.dq",
+        "peekOfCode": "num = [5, 2, 4, 22, 12, 6]\ndq = deque(num)  #make deque\n# rotate\ndq.rotate(1)\nprint(dq)\nwhile dq:\n    x = dq.popleft()\n    print(x)",
+        "detail": "deque.dq",
+        "documentation": {}
+    },
+    {
+        "label": "dq",
+        "kind": 5,
+        "importPath": "deque.dq",
+        "description": "deque.dq",
+        "peekOfCode": "dq = deque(num)  #make deque\n# rotate\ndq.rotate(1)\nprint(dq)\nwhile dq:\n    x = dq.popleft()\n    print(x)",
+        "detail": "deque.dq",
+        "documentation": {}
+    }
+]

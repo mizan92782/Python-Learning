@@ -1,0 +1,14 @@
+****counter in used for counter distinct element in a container
+*** its create object frequency mapping
+import from:
+
+from collections import counter
+
+Why use Counter() instead of a normal dictionary?
+Counter and dictionary are similar, but Counter provides additional functionality specifically for counting elements.
+
+Returns 0 for missing keys, whereas a dictionary raises a KeyError.
+Designed specifically for counting hashable items, while a dictionary is a general-purpose data structure.
+Provides built-in methods like most_common(), elements(), update() and subtract() for easier frequency operations.
+Supports arithmetic operations such as addition (+), subtraction (-), intersection (&) and union (|).
+Requires less manual code for counting compared to updating values in a dictionary.
