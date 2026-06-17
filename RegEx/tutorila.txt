@@ -1,0 +1,5 @@
+https://www.geeksforgeeks.org/python/regular-expression-python-examples/
+
+https://www.geeksforgeeks.org/python/python-regex/
+
+https://www.geeksforgeeks.org/python/python-regex-cheat-sheet/
