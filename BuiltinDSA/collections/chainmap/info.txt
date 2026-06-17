@@ -1,0 +1,1 @@
+Python contains a container called "ChainMap" which encapsulates many dictionaries into one unit. ChainMap is member of module "

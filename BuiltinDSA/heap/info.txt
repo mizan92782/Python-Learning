@@ -1,0 +1,18 @@
+
+
+
+
+A heap queue (also called a priority queue) is a data structure that allows quick access to the smallest (min-heap) or largest (max-heap) element.
+
+By default, heaps are implemented as min-heaps.
+Smallest element is always at the root and largest element is located among the leaf nodes of the heap.
+Pytho
+
+
+
+
+
+Why do we need Heap queue?
+Provides an efficient way to implement priority queues and maintain elements in heap order with minimal code and high performance.
+Useful in algorithms like Dijkstra's, Huffman encoding or any task requiring quick access to smallest element.
+Ideal for managing sorted data dynamically without full sorting after each operation.
