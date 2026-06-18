@@ -3,3 +3,5 @@ https://www.geeksforgeeks.org/python/regular-expression-python-examples/
 https://www.geeksforgeeks.org/python/python-regex/
 
 https://www.geeksforgeeks.org/python/python-regex-cheat-sheet/
+
+https://chatgpt.com/c/6a3226d9-3804-83ee-9870-6e8b71246892

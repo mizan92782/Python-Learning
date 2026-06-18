@@ -1,0 +1,155 @@
+[
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "meta character.character_set",
+        "description": "meta character.character_set",
+        "peekOfCode": "res = re.findall(f\"[ac]\",text)\nprint(res)\n#! match word a to z :\ntext = \"A1b2C3d4\"\nprint(re.findall(r\"[a-z]\", text))  \n# Find All number\ntext = \"dfaldk 40450 dlfdkl 454343\"\nres = re.findall(r'[0-9]+',text)\nprint(res)",
+        "detail": "meta character.character_set",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "meta character.character_set",
+        "description": "meta character.character_set",
+        "peekOfCode": "text = \"A1b2C3d4\"\nprint(re.findall(r\"[a-z]\", text))  \n# Find All number\ntext = \"dfaldk 40450 dlfdkl 454343\"\nres = re.findall(r'[0-9]+',text)\nprint(res)",
+        "detail": "meta character.character_set",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "meta character.character_set",
+        "description": "meta character.character_set",
+        "peekOfCode": "text = \"dfaldk 40450 dlfdkl 454343\"\nres = re.findall(r'[0-9]+',text)\nprint(res)",
+        "detail": "meta character.character_set",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "meta character.character_set",
+        "description": "meta character.character_set",
+        "peekOfCode": "res = re.findall(r'[0-9]+',text)\nprint(res)",
+        "detail": "meta character.character_set",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "meta character.dot",
+        "description": "meta character.dot",
+        "peekOfCode": "text = 'cat cit cet c@t'\n# find a wrod that start witl s and t and a word in between them\nres1= re.findall(r'c.t',text)\nprint(res1)\n#find wot that middle word in 'i'\nres2 = re.findall(f\".i.\",text)\nprint(res2)",
+        "detail": "meta character.dot",
+        "documentation": {}
+    },
+    {
+        "label": "res2",
+        "kind": 5,
+        "importPath": "meta character.dot",
+        "description": "meta character.dot",
+        "peekOfCode": "res2 = re.findall(f\".i.\",text)\nprint(res2)",
+        "detail": "meta character.dot",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "meta character.end",
+        "description": "meta character.end",
+        "peekOfCode": "text = \"I love python\"\nprint(re.findall(r\"python$\", text))",
+        "detail": "meta character.end",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "meta character.not",
+        "description": "meta character.not",
+        "peekOfCode": "text = \"abcxyz\"\nprint(re.findall(r\"[^abc]\", text))",
+        "detail": "meta character.not",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "meta character.or",
+        "description": "meta character.or",
+        "peekOfCode": "text = \"I like cat and dog\"\nprint(re.findall(r\"cat|dog\", text))",
+        "detail": "meta character.or",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "meta character.start",
+        "description": "meta character.start",
+        "peekOfCode": "res = re.findall(r\"^\\bli\\w*\",text)\nprint(res)",
+        "detail": "meta character.start",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "qualifier.astic(*)",
+        "description": "qualifier.astic(*)",
+        "peekOfCode": "res = re.findall(r'a*',text)\nprint(res)",
+        "detail": "qualifier.astic(*)",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "qualifier.minimum_one(+)",
+        "description": "qualifier.minimum_one(+)",
+        "peekOfCode": "text = \"a aa aaab abaa\"\nprint(re.findall(r\"a+\", text))",
+        "detail": "qualifier.minimum_one(+)",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "qualifier.n_to_m_times",
+        "description": "qualifier.n_to_m_times",
+        "peekOfCode": "text = \"a aa aaa aaaa\"\nprint(re.findall(r\"a{2,3}\", text))",
+        "detail": "qualifier.n_to_m_times",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "qualifier.ntimes({n})",
+        "description": "qualifier.ntimes({n})",
+        "peekOfCode": "text = \"aaaa aa a\"\nprint(re.findall(r\"a{3}\", text))",
+        "detail": "qualifier.ntimes({n})",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "qualifier.optiona(?)",
+        "description": "qualifier.optiona(?)",
+        "peekOfCode": "text = \"color colour\"\nprint(re.findall(r\"colou?r\", text))",
+        "detail": "qualifier.optiona(?)",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "search",
+        "description": "search",
+        "peekOfCode": "text = \"I love bangladesh,bangladesh is a south asian country\"\nresult= re.search('bangladesh',text)\nprint(result.group())",
+        "detail": "search",
+        "documentation": {}
+    }
+]
